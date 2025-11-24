@@ -89,9 +89,9 @@ Fuga aplicada como perturbación externa.
 
 Presión medida por el sensor (con ruido).
 
-### f(t)
+### Presión de referencia
 
-Presión medida por el sensor (con ruido).
+Valor de presión que se quiere mantener en el sistema
 
 ---
 
