@@ -56,8 +56,8 @@ const st_ref = el("st_ref");
 // -------------------------------
 // fixed model parameters
 // -------------------------------
-const Kplant = parseFloat(KplantRead.value); // 40
-const tau = parseFloat(tauRead.value);       // 5
+const Kplant = parseFloat(KplantRead.value); 
+const tau = parseFloat(tauRead.value);       
 
 // -------------------------------
 // runtime state
