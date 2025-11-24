@@ -133,7 +133,7 @@ Kp = 3.5
 Ki = 0.15  
 → Sobreimpulso evidente y pequeña oscilación inicial antes de estabilizarse.
 
-Este caso muestra claramente los efectos de una ganancia proporcional elevada.
+Este caso muestra claramente los efectos de una ganancia proporcional elevada (En sistemas reales, el sobreimpulso no se manifiesta salvo con ganancias excesivas debido a la inercia del proceso.).
 
 
 ---
