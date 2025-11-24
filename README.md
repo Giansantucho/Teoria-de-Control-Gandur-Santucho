@@ -150,6 +150,8 @@ Se sugiere modificar los parámetros PI y aplicar el leak en distintos momentos 
 ---
 
 ✍ Alumnos: Gianlucca Santucho, María Lucía Gandur
+
 📚 Asignatura y Curso: Teoría de Control K4521
+
 🏫 Universidad Tecnológica Nacional 2025
 
