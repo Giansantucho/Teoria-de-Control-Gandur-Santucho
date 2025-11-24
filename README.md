@@ -112,23 +112,29 @@ Esto permite evaluar el rechazo a perturbaciones.
 
 ## 7. Casos sugeridos para evaluación
 
-### Caso estable
+Los siguientes valores fueron ajustados según el comportamiento real observado en el simulador:
 
-Kp = 1.0
-Ki = 0.06
-→ Respuesta suave y controlada.
+### 🟢 Caso estable
+Kp = 0.6  
+Ki = 0.04  
+→ Llegada progresiva al setpoint, sin sobreimpulso ni oscilaciones.
 
-### Caso agresivo
+---
 
-Kp = 1.8
-Ki = 0.1
-→ Respuesta rápida con sobreimpulso.
+### 🟡 Caso rápido
+Kp = 1.5  
+Ki = 0.07  
+→ Respuesta más veloz que el caso estable, con leve tendencia a sobreimpulso pero aún controlada.
 
-### Caso lento
+---
 
-Kp = 0.4
-Ki = 0.02
-→ Respuesta lenta pero muy estable.
+### 🔴 Caso agresivo
+Kp = 3.5  
+Ki = 0.15  
+→ Sobreimpulso evidente y pequeña oscilación inicial antes de estabilizarse.
+
+Este caso muestra claramente los efectos de una ganancia proporcional elevada.
+
 
 ---
 
