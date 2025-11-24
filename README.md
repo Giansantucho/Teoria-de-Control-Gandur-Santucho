@@ -6,6 +6,8 @@ Este simulador permite observar cómo un **controlador PI** regula la presión d
 
 Está pensado como herramienta didáctica para visualizar en tiempo real los conceptos de control automático.
 
+A diferencia de modelos ideales, este simulador incorpora limitaciones físicas que atenúan comportamientos extremos, permitiendo una representación más fiel de un sistema neumático real.
+
 ---
 
 ## 2. Cómo ejecutar el simulador
