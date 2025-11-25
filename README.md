@@ -25,6 +25,8 @@ A diferencia de modelos ideales, este simulador incorpora limitaciones físicas 
 
 La simulación comienza automáticamente.
 
+PD: A lo largo de la simulación, se pueden modificar: la presión de referencia, las ganancias del controlador y las perturbaciones.
+
 ---
 
 ## 3. Parámetros que puede modificar el docente
