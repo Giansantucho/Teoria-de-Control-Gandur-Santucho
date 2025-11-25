@@ -12,16 +12,18 @@ A diferencia de modelos ideales, este simulador incorpora limitaciones físicas 
 
 ## 2. Cómo ejecutar el simulador
 
-1. Abrir el archivo `index.html` en cualquier navegador (Chrome, Edge, Firefox, etc.).
+1. Descargar los documentos `index.html`, `styles.css` y `script.js` en una misma carpeta en su ordenador.
+  
+2. Abrir el archivo `index.html` en cualquier navegador (Chrome, Edge, Firefox, etc.).
 
-2. Aparecerá una pantalla con:
+3. Aparecerá una pantalla con:
 
    * Controles en la parte superior.
    * Gráficos en la parte inferior.
 
-3. Configurar los parámetros deseados.
+4. Configurar los parámetros deseados.
 
-4. Presionar el botón **Iniciar**.
+5. Presionar el botón **Iniciar**.
 
 La simulación comienza automáticamente.
 
