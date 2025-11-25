@@ -35,7 +35,7 @@ PD: A lo largo de la simulación, se pueden modificar: la presión de referencia
 
 ### Control principal
 
-* **Presión objetivo (PSI):** valor que el sistema intenta alcanzar.
+* **Presión objetivo (PSI):** valor que el sistema intenta alcanzar. 
 * **Kp:** ganancia proporcional (define qué tan rápido responde).
 * **Ki:** ganancia integral (corrige el error residual).
 
@@ -52,7 +52,7 @@ PD: A lo largo de la simulación, se pueden modificar: la presión de referencia
 
 ### Inicialización
 
-* **Presión inicial:** valor desde el cual parte el sistema.
+* **Presión inicial:** valor desde el cual parte el sistema. (Recomendamos iniciar con un numero entre 100 y 110 PSI)
 
 ---
 
