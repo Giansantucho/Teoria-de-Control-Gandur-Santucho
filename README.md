@@ -79,7 +79,7 @@ Muestra la evolución de la presión real del neumático.
 * Banda sombreada: rango aceptable 115 – 130 PSI.
 * Línea roja: valor actual de la presión.
 
-### Error e(t)
+### Error e[Kt]
 
 Diferencia entre presión deseada y medida.
 
@@ -91,8 +91,7 @@ Señal de control generada por el controlador PI.
 
 Fuga aplicada como perturbación externa.
 
-### f(t)
-
+### f(t)[Kt]
 Presión medida por el sensor (con ruido).
 
 ### Presión de referencia
@@ -166,4 +165,5 @@ Se sugiere modificar los parámetros PI y aplicar el leak en distintos momentos 
 📚 Asignatura y Curso: Teoría de Control K4521
 
 🏫 Universidad Tecnológica Nacional 2025
+
 
