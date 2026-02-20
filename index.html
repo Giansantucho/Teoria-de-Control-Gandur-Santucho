@@ -21,15 +21,15 @@
       <h2>Controles</h2>
 
       <div class="row">
-        <label>Presión objetivo (PSI)
+        <label>Presión objetivo (PSI) - Setpoint
           <input id="setpoint" type="number" step="0.1" value="125">
         </label>
 
-        <label>Kp
+        <label>Kp - Ganancia Proporcional
           <input id="Kp" type="number" step="0.01" value="1">
         </label>
 
-        <label>Ki
+        <label>Ki - Ganancia Integral
           <input id="Ki" type="number" step="0.01" value="0.06">
         </label>
       </div>
@@ -67,11 +67,11 @@
       </div>
 
       <div class="row">
-        <label>Kplant (fijo)
+        <label>Kplant - Ganancia del Proceso 
           <input id="Kplant" type="number" step="0.1" value="140" readonly>
         </label>
 
-        <label>τ (tau) (fijo)
+        <label>τ (tau) (s)
           <input id="tau" type="number" step="0.1" value="5" readonly>
         </label>
 
@@ -94,7 +94,7 @@
         <div>e: <span id="st_e">0.0</span> PSI</div>
         <div>u: <span id="st_u">0.0</span></div>
         <div>Leak activo: <span id="st_leak">0.0</span> PSI/s</div>
-        <div>Referencia (θi): <span id="st_ref">0.0</span> PSI</div>
+        <div>Presión objetivo (PSI) - Setpoint (θi): <span id="st_ref">0.0</span> PSI</div>
       </div>
     </section>
 
@@ -105,19 +105,19 @@
       <div class="chartRow">
         <div class="chartCard">
           <canvas id="chartP"></canvas>
-          <div class="chartLabel">Presión P(t) — salida del sistema (θ₀)</div>
+          <div class="chartLabel">Presión P(t) — salida del sistema (θo)</div>
         </div>
 
         <div class="chartCard">
           <canvas id="chartE"></canvas>
-          <div class="chartLabel">Error e(t) — entrada del controlador</div>
+          <div class="chartLabel">Error e[Kt] — entrada del controlador</div>
         </div>
       </div>
 
       <div class="chartRow">
         <div class="chartCard">
           <canvas id="chartU"></canvas>
-          <div class="chartLabel">Señal de control u(t) — salida del PI</div>
+          <div class="chartLabel">Señal de control u(t) — salida del controlador PI</div>
         </div>
 
         <div class="chartCard">
@@ -127,12 +127,12 @@
 
         <div class="chartCard">
           <canvas id="chartF"></canvas>
-          <div class="chartLabel">Lectura sensor f(t) — retroalimentación</div>
+          <div class="chartLabel">Lectura sensor f[Kt] — retroalimentación</div>
         </div>
 
         <div class="chartCard">
         <canvas id="chartRef"></canvas>
-        <div class="chartLabel">Referencia θᵢ(t) — setpoint</div>
+        <div class="chartLabel">Presión objetivo (PSI) - Setpoint (θi)</div>
         </div>
 
       </div>

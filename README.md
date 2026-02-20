@@ -35,7 +35,7 @@ PD: A lo largo de la simulación, se pueden modificar: la presión de referencia
 
 ### Control principal
 
-* **Presión objetivo (PSI):** valor que el sistema intenta alcanzar. 
+* **Presión objetivo (PSI):** valor que el sistema intenta alcanzar.
 * **Kp:** ganancia proporcional (define qué tan rápido responde).
 * **Ki:** ganancia integral (corrige el error residual).
 
@@ -52,7 +52,7 @@ PD: A lo largo de la simulación, se pueden modificar: la presión de referencia
 
 ### Inicialización
 
-* **Presión inicial:** valor desde el cual parte el sistema. (Recomendamos iniciar con un numero entre 100 y 110 PSI)
+* **Presión inicial:** valor desde el cual parte el sistema.
 
 ---
 
@@ -79,7 +79,7 @@ Muestra la evolución de la presión real del neumático.
 * Banda sombreada: rango aceptable 115 – 130 PSI.
 * Línea roja: valor actual de la presión.
 
-### Error e[Kt]
+### Error e(t)
 
 Diferencia entre presión deseada y medida.
 
@@ -91,7 +91,7 @@ Señal de control generada por el controlador PI.
 
 Fuga aplicada como perturbación externa.
 
-### f[Kt]
+### f(t)
 
 Presión medida por el sensor (con ruido).
 
