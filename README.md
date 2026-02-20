@@ -79,7 +79,7 @@ Muestra la evolución de la presión real del neumático.
 * Banda sombreada: rango aceptable 115 – 130 PSI.
 * Línea roja: valor actual de la presión.
 
-### Error e(t)
+### Error e[Kt]
 
 Diferencia entre presión deseada y medida.
 
@@ -91,7 +91,7 @@ Señal de control generada por el controlador PI.
 
 Fuga aplicada como perturbación externa.
 
-### f(t)
+### f[Kt]
 
 Presión medida por el sensor (con ruido).
 
